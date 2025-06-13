@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  background-color: #14BDAC;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.top-score {
+  background-color: rgba(25, 25, 25, 0.285);
+  padding: 10px 20px;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.div1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #14BDAC;
+  border-radius: 25px;
+}
+
+.div2 {
+  padding: 7px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.top-score img {
+  width: 20px;
+}
+
+.score-txt {
+  font-family: Arial;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.grid-box div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 123px;
+}
+
+.grid-box button{
+  height: 123px;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+.winner-box {
+  width: 400px;
+  height: 400px;
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 20px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trait-vertical {
+  background-color: rgb(58, 58, 58);
+  border-radius: 50px;
+  width: 10px;
+  position: absolute;
+  transition: 0.6s;
+}
+
+.trait-diagonale, .trait-diagonale2 {
+  background-color: rgb(58, 58, 58);
+  border-radius: 50px;
+  width: 10px;
+  height: 125%;
+  position: absolute;
+  transform: rotate(-44.9deg);
+  transition: 0.6s;
+}
+
+.trait-diagonale2 {
+  transform: rotate(44.9deg);
+}
+
+.trait-horizontal {
+  background-color: rgb(58, 58, 58);
+  border-radius: 50px;
+  width: 100%;
+  height: 10px;
+  position: absolute;  
+  transition: 0.6s;
+}
+
+.trait-position1 {
+  left: 128px;
+  top: 0;
+  bottom: 0;
+}
+
+.trait-position2 {
+  right: 128px;
+  top: 0;
+  bottom: 0;
+}
+
+
+.trait-position3 {
+  top: 128px;
+  right: 0;
+  left: 0;
+}
+
+.trait-position4 {
+  right: 0;
+  left: 0;
+  bottom: 128px;
+}
+
+.signe-icon {
+  width: 50%;
+  height: 123;
+  animation-name: signe;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-out;
+}
+
+
+.win, .hide-box {
+  display: none;
+  opacity: 0;
+}
+
+.win0 {
+  top: 64px;
+}
+.win1 {
+  top: 195px
+}
+.win2 {
+  bottom: 62px;
+}
+
+.win3 {
+  left: 62px;
+  top: 0;
+  bottom: 0;
+}
+
+.win4 {
+  left: 195px;
+  top: 0;
+  bottom: 0;
+}
+
+.win5 {
+  right: 62px;
+  top: 0;
+  bottom: 0;
+}
+
+.win6 {
+  left: 195px;
+  top: -55px;
+  /* bottom: 0px; */
+}
+
+.win7 {
+  left: 195px;
+  top: -55px;
+  /* bottom: 0px; */
+}
+
+.win-animation {
+  display: block;
+  opacity: 1;
+  animation-name: signe;
+  animation-duration: 1s;
+}
+
+.winner-icon {
+  width: 80px;
+  animation-name: signe;
+  animation-duration: 1s;
+}
+
+.winner-txt {
+  font-size: 40px;
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  font-family: Arial;
+  animation-name: signe;
+  animation-duration: 1s;
+}
+
+.rejouer-btn {
+  animation-name: signe;
+  animation-duration: 1s;
+  font-size: 27px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: #00ffe5;
+  padding: 10px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.rejouer-btn:hover {
+  opacity: 0.7;
+  color: #00ffe5;
+}
+
+.disparetre {
+  animation-name: disparition;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+}
+
+.px-player {
+  background-color: white;
+}
+
+.po-player {
+  background-color: white;
+}
+
+
+@keyframes aparition {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes signe {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes disparition {
+  0% {
+    opacity: 1;
+    scale: 1;
+  }
+
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}

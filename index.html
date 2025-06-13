@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TIC-TAC-TOE</title>
+</head>
+<body>
+  <div class="top-score">
+    <div class="div1 px px-player">
+      <div class="div2"><img src="icone/x-icon.png">:</div>
+      <div class="score-txt">0</div>
+    </div>
+
+    <div class="div1 po">
+      <div class="div2"><img src="icone/o-icon.png">:</div>
+      <div class="score-txt">0</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <span class="trait-vertical trait-position2"></span>
+    <span class="trait-vertical trait-position1"></span>
+    <span class="trait-horizontal trait-position3"></span>
+    <span class="trait-horizontal trait-position4"></span>
+
+    <span class="trait-horizontal win win0"></span>
+    <span class="trait-horizontal win win1"></span>
+    <span class="trait-horizontal win win2"></span>
+    <span class="trait-vertical win win3"></span>
+    <span class="trait-vertical win win4"></span>
+    <span class="trait-vertical win win5"></span>
+
+    <span class="trait-diagonale win win6"></span>
+    <span class="trait-diagonale2 win win7"></span>
+
+
+    <div class="grid-box">
+      <div class="div-A1"><button class="A1 button" onclick="distribute('A1')"></button></div>
+      <div class="div-A2"><button class="A2 button" onclick="distribute('A2')"></button></div>
+      <div class="div-A3"><button class="A3 button" onclick="distribute('A3')"></button></div>
+
+      <div class="div-B1"><button class="B1 button" onclick="distribute('B1')"></button></div>
+      <div class="div-B2"><button class="B2 button" onclick="distribute('B2')"></button></div>
+      <div class="div-B3"><button class="B3 button" onclick="distribute('B3')"></button></div>
+
+      <div class="div-C1"><button class="C1 button" onclick="distribute('C1')"></button></div>
+      <div class="div-C2"><button class="C2 button" onclick="distribute('C2')"></button></div>
+      <div class="div-C3"><button class="C3 button" onclick="distribute('C3')"></button></div>
+    </div>
+  </div>
+
+  <script src="code.js"></script>
+</body>
+</html>
