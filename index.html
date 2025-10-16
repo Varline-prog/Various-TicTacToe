@@ -1,56 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>TIC-TAC-TOE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/create.css">
+  <link rel="stylesheet" href="css/select_file.css">
+  <link rel="stylesheet" href="css/name_file.css">
+  <title>Flash the V - Select file</title>
 </head>
-<body>
-  <div class="top-score">
-    <div class="div1 px px-player">
-      <div class="div2"><img src="icone/x-icon.png">:</div>
-      <div class="score-txt">0</div>
+<body class="body">
+
+  <main class="main">
+    <p class="title">Flash the V</p>
+    
+    <div action="#" class="dossier">
+      <div class="dossier__div">
+        <h1>Mes dossiers</h1>
+        <div class="toDelBtn">
+          <button class="dossier__div--delete ">Supprimer</button>
+        </div>
+      </div>
+      
+      <div class="oopsTedyDie">
+      </div>
     </div>
-
-    <div class="div1 po">
-      <div class="div2"><img src="icone/o-icon.png">:</div>
-      <div class="score-txt">0</div>
-    </div>
-  </div>
-
-  <div class="box">
-    <span class="trait-vertical trait-position2"></span>
-    <span class="trait-vertical trait-position1"></span>
-    <span class="trait-horizontal trait-position3"></span>
-    <span class="trait-horizontal trait-position4"></span>
-
-    <span class="trait-horizontal win win0"></span>
-    <span class="trait-horizontal win win1"></span>
-    <span class="trait-horizontal win win2"></span>
-    <span class="trait-vertical win win3"></span>
-    <span class="trait-vertical win win4"></span>
-    <span class="trait-vertical win win5"></span>
-
-    <span class="trait-diagonale win win6"></span>
-    <span class="trait-diagonale2 win win7"></span>
+  
+    <!-- To avoid that addEventListner of null -->
+    <button class="js-valider" style="display: none"></button>
+  </main>
 
 
-    <div class="grid-box">
-      <div class="div-A1"><button class="A1 button" onclick="distribute('A1')"></button></div>
-      <div class="div-A2"><button class="A2 button" onclick="distribute('A2')"></button></div>
-      <div class="div-A3"><button class="A3 button" onclick="distribute('A3')"></button></div>
-
-      <div class="div-B1"><button class="B1 button" onclick="distribute('B1')"></button></div>
-      <div class="div-B2"><button class="B2 button" onclick="distribute('B2')"></button></div>
-      <div class="div-B3"><button class="B3 button" onclick="distribute('B3')"></button></div>
-
-      <div class="div-C1"><button class="C1 button" onclick="distribute('C1')"></button></div>
-      <div class="div-C2"><button class="C2 button" onclick="distribute('C2')"></button></div>
-      <div class="div-C3"><button class="C3 button" onclick="distribute('C3')"></button></div>
-    </div>
-  </div>
-
-  <script src="code.js"></script>
+  <script src="js/create.js"></script>
+  <script src="js/select_file.js"></script>
 </body>
 </html>
