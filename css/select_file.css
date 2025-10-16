@@ -17,7 +17,7 @@ body {
   background-color: #333333;
   color: white;
   height: 370px;
-  width: 460px;
+  width: 400px; /*Avant la valeur etai a 460px*/
   border: 2px solid gray;
   border-radius: 50px;
   padding-left: 10px;
@@ -68,10 +68,11 @@ body {
 .oopsTedyDie {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .user-file2, .user-file20, .functionality-btn {
-  width: 400px;
+  width: 340px;
   font-size: 17px;
   text-align: start;
   padding: 15px;
