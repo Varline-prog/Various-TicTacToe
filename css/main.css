@@ -1,0 +1,251 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  user-select: none;
+}
+body {
+  margin-left: 255px;
+  background: #f8f8f8;
+  color: #333;
+}
+
+.VAR_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+  font-size: 20px;
+  background-color: white;
+  padding-top: 150px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.v-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  cursor: pointer;
+}
+
+.sidebar section {
+  /* background-color: aqua; */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 1.5em 2em;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.sidebar section:hover {
+  background-color: #a0a0a026;
+}
+
+.selectionado {
+  background-color: #a0a0a026;
+  border-right: 10px solid rgb(255, 162, 0);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sidebar section img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+
+.main-content {
+  margin-top: 70px;
+}
+
+.header {
+  background: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #ddd;
+  position: absolute;
+  top: 0;
+  left: 255.5px;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .header div {
+  width: 50px;
+  height: 50px;
+} */
+
+.flag {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  border: 3px solid rgb(90, 90, 90);
+  cursor: pointer;
+}
+
+.flag:hover {
+  opacity: 0.8;
+}
+
+.userlogo {
+  width: 30px;
+}
+
+.learn, .Continue_learn {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 90px;
+  margin-left: 30px;
+  margin-bottom: 35px;
+}
+
+.Continue_learn {
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.inputdiv {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 50px;
+  padding: 1em 2em;
+  padding-left: 25px;
+  position: relative;
+}
+
+.inputdiv img {
+  width: 25px;
+  position: absolute;
+  left: 45px;
+}
+
+.input {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  width: 100%;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  outline-color: rgb(0, 126, 172);
+  outline-width: 50px;
+  font-size: 20px;
+}
+
+.courses {
+  height: 180px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  overflow-x: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: rgba(209, 208, 208, 0.354);
+  width: 340px;
+  height: 150px;
+  border-radius: 30px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.pbig {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.psmall {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card button {
+  background-color: rgb(246, 176, 46);
+  padding: 0.5em 1.5em;
+  margin-top: 40px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.24);
+  border-radius: 17px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  opacity: 0.8;
+}
+
+.herramienta {
+  /* background-color: red; */
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.herramienta img {
+  width: 22px;
+  cursor: pointer;
+}
+
+.vale {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lastLast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verTodo {
+  margin-right: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.verTodo:hover {
+  opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  body {
+    margin-left: 0;
+  }
+
+  .header {
+    left: 0;
+  }
+}

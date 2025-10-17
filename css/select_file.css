@@ -72,7 +72,7 @@ body {
 }
 
 .user-file2, .user-file20, .functionality-btn {
-  width: 340px;
+  width: 340px; /*Ajouter 40px pour sa valeur inicial*/
   font-size: 17px;
   text-align: start;
   padding: 15px;

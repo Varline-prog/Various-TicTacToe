@@ -1,0 +1,148 @@
+* {
+   user-select: none;
+}
+
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f9ffff;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #50e3c2;
+  padding: 1em;
+  padding-left: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid #f0efef;
+}
+
+
+main {
+  /* background-color: #8d8d8d; */
+  padding: 2em;
+  padding-top: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  padding-top: 10px;
+  margin-left: 50px;
+  text-align: start;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.center {
+  /* background-color: red; */
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* background-color: #50e3c2; */
+  margin-top: 20px; /*Antes no aqui*/
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.option {
+  display: flex; /* FLEX permet de centrer le texte */
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 70px; /* même hauteur partout */
+  
+  padding: 10px;
+  font-weight: 500;
+  margin: 10px;
+  background-color: white;
+  border-radius: 17px;
+  border: 2px solid rgba(28, 28, 28, 0.187);
+  border-bottom: 7px solid rgba(28, 28, 28, 0.187);
+  font-size: 1.2em;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Antes option */
+/* .option {
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  margin: 10px;
+  background-color: white;
+  border-radius: 17px;
+  border: 2px solid rgba(28, 28, 28, 0.187);
+  border-bottom: 7px solid rgba(28, 28, 28, 0.187);
+  font-size: 1.2em;
+  cursor: pointer;
+} */
+
+
+.option:hover {
+  opacity: 0.9;
+}
+
+.option:active {
+  border-bottom: 2px solid rgba(28, 28, 28, 0.187);
+}
+
+.correct_option {
+  background-color: #03c196;
+  border-color: #289475;
+  transition: 0.2s;
+}
+
+.bad_option {
+  background-color: #dbb2aa;
+  border-color: #ae3e34;
+  transition: 0.2s;
+}
+
+.number {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.unknown {
+  margin-top: 2em;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  border-radius: 8px;
+  border-bottom: 8px solid rgba(166, 166, 166, 0.336);
+}
+
+.unknown button {
+  border: none;
+  height: 160px;
+  width: 130px;
+  padding: 0.8em 1.5em;
+  cursor: pointer;
+  font-size: 1em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.spone {
+  display: block;
+  font-size: 60px;
+  margin-bottom: 10px;
+}

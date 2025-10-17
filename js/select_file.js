@@ -226,12 +226,15 @@ function listAllFiles() {
       <div class='bottom-function'>
         <button class="user-file20 user-file20-btn js-multipleMode functionality-btn">Mode multiple</button>
 
-        <button class="functionality-btn js-carte-hard">Carte Difficile</button>
+        <button class="functionality-btn js-carte-hard">EAT THE V</button>
       </div>
     `
 
   document.querySelector('.oopsTedyDie').innerHTML = html
-  
+  document.querySelector('.js-carte-hard').addEventListener('click', () => {
+    window.location.href = "./main.html"
+  })
+
   activateMultipleMode() // Et aussi pour 'js-carte-hard'
   document.querySelectorAll('.user-file2').forEach((value, index) => {
     value.addEventListener('click', () => {

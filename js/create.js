@@ -103,6 +103,171 @@ let pocket = [
       { "recto": "9×9", "verso": "81" },
       { "recto": "9×10", "verso": "90" }
     ]
+  },
+  {
+    "name": "Table de 10",
+    "packet": [
+      { "recto": "10×1", "verso": "10" },
+      { "recto": "10×2", "verso": "20" },
+      { "recto": "10×3", "verso": "30" },
+      { "recto": "10×4", "verso": "40" },
+      { "recto": "10×5", "verso": "50" },
+      { "recto": "10×6", "verso": "60" },
+      { "recto": "10×7", "verso": "70" },
+      { "recto": "10×8", "verso": "80" },
+      { "recto": "10×9", "verso": "90" },
+      { "recto": "10×10", "verso": "100" }
+    ]
+  },
+  {
+    "name": "Table de 11",
+    "packet": [
+      { "recto": "11×1", "verso": "11" },
+      { "recto": "11×2", "verso": "22" },
+      { "recto": "11×3", "verso": "33" },
+      { "recto": "11×4", "verso": "44" },
+      { "recto": "11×5", "verso": "55" },
+      { "recto": "11×6", "verso": "66" },
+      { "recto": "11×7", "verso": "77" },
+      { "recto": "11×8", "verso": "88" },
+      { "recto": "11×9", "verso": "99" },
+      { "recto": "11×10", "verso": "110" }
+    ]
+  },
+  {
+    "name": "Table de 12",
+    "packet": [
+      { "recto": "12×1", "verso": "12" },
+      { "recto": "12×2", "verso": "24" },
+      { "recto": "12×3", "verso": "36" },
+      { "recto": "12×4", "verso": "48" },
+      { "recto": "12×5", "verso": "60" },
+      { "recto": "12×6", "verso": "72" },
+      { "recto": "12×7", "verso": "84" },
+      { "recto": "12×8", "verso": "96" },
+      { "recto": "12×9", "verso": "108" },
+      { "recto": "12×10", "verso": "120" }
+    ]
+  },
+  {
+    "name": "Table de 13",
+    "packet": [
+      { "recto": "13×1", "verso": "13" },
+      { "recto": "13×2", "verso": "26" },
+      { "recto": "13×3", "verso": "39" },
+      { "recto": "13×4", "verso": "52" },
+      { "recto": "13×5", "verso": "65" },
+      { "recto": "13×6", "verso": "78" },
+      { "recto": "13×7", "verso": "91" },
+      { "recto": "13×8", "verso": "104" },
+      { "recto": "13×9", "verso": "117" },
+      { "recto": "13×10", "verso": "130" }
+    ]
+  },
+  {
+    "name": "Table de 14",
+    "packet": [
+      { "recto": "14×1", "verso": "14" },
+      { "recto": "14×2", "verso": "28" },
+      { "recto": "14×3", "verso": "42" },
+      { "recto": "14×4", "verso": "56" },
+      { "recto": "14×5", "verso": "70" },
+      { "recto": "14×6", "verso": "84" },
+      { "recto": "14×7", "verso": "98" },
+      { "recto": "14×8", "verso": "112" },
+      { "recto": "14×9", "verso": "126" },
+      { "recto": "14×10", "verso": "140" }
+    ]
+  },
+  {
+    "name": "Table de 15",
+    "packet": [
+      { "recto": "15×1", "verso": "15" },
+      { "recto": "15×2", "verso": "30" },
+      { "recto": "15×3", "verso": "45" },
+      { "recto": "15×4", "verso": "60" },
+      { "recto": "15×5", "verso": "75" },
+      { "recto": "15×6", "verso": "90" },
+      { "recto": "15×7", "verso": "105" },
+      { "recto": "15×8", "verso": "120" },
+      { "recto": "15×9", "verso": "135" },
+      { "recto": "15×10", "verso": "150" }
+    ]
+  },
+  {
+    "name": "Table de 16",
+    "packet": [
+      { "recto": "16×1", "verso": "16" },
+      { "recto": "16×2", "verso": "32" },
+      { "recto": "16×3", "verso": "48" },
+      { "recto": "16×4", "verso": "64" },
+      { "recto": "16×5", "verso": "80" },
+      { "recto": "16×6", "verso": "96" },
+      { "recto": "16×7", "verso": "112" },
+      { "recto": "16×8", "verso": "128" },
+      { "recto": "16×9", "verso": "144" },
+      { "recto": "16×10", "verso": "160" }
+    ]
+  },
+  {
+    "name": "Table de 17",
+    "packet": [
+      { "recto": "17×1", "verso": "17" },
+      { "recto": "17×2", "verso": "34" },
+      { "recto": "17×3", "verso": "51" },
+      { "recto": "17×4", "verso": "68" },
+      { "recto": "17×5", "verso": "85" },
+      { "recto": "17×6", "verso": "102" },
+      { "recto": "17×7", "verso": "119" },
+      { "recto": "17×8", "verso": "136" },
+      { "recto": "17×9", "verso": "153" },
+      { "recto": "17×10", "verso": "170" }
+    ]
+  },
+  {
+    "name": "Table de 18",
+    "packet": [
+      { "recto": "18×1", "verso": "18" },
+      { "recto": "18×2", "verso": "36" },
+      { "recto": "18×3", "verso": "54" },
+      { "recto": "18×4", "verso": "72" },
+      { "recto": "18×5", "verso": "90" },
+      { "recto": "18×6", "verso": "108" },
+      { "recto": "18×7", "verso": "126" },
+      { "recto": "18×8", "verso": "144" },
+      { "recto": "18×9", "verso": "162" },
+      { "recto": "18×10", "verso": "180" }
+    ]
+  },
+  {
+    "name": "Table de 19",
+    "packet": [
+      { "recto": "19×1", "verso": "19" },
+      { "recto": "19×2", "verso": "38" },
+      { "recto": "19×3", "verso": "57" },
+      { "recto": "19×4", "verso": "76" },
+      { "recto": "19×5", "verso": "95" },
+      { "recto": "19×6", "verso": "114" },
+      { "recto": "19×7", "verso": "133" },
+      { "recto": "19×8", "verso": "152" },
+      { "recto": "19×9", "verso": "171" },
+      { "recto": "19×10", "verso": "190" }
+    ]
+  },
+  {
+    "name": "Table de 20",
+    "packet": [
+      { "recto": "20×1", "verso": "20" },
+      { "recto": "20×2", "verso": "40" },
+      { "recto": "20×3", "verso": "60" },
+      { "recto": "20×4", "verso": "80" },
+      { "recto": "20×5", "verso": "100" },
+      { "recto": "20×6", "verso": "120" },
+      { "recto": "20×7", "verso": "140" },
+      { "recto": "20×8", "verso": "160" },
+      { "recto": "20×9", "verso": "180" },
+      { "recto": "20×10", "verso": "200" }
+    ]
   }
 ]
 
@@ -219,7 +384,8 @@ function nextCart() {
           i--
           if (i === 1) {
             setTimeout(() => {
-              window.location.href = "index2.html"
+              // window.location.href = "index2.html"
+              window.location.reload()
             }, 1400)
           }
         }, 1000);
